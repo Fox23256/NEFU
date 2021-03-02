@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="402.0" prefWidth="424.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints maxWidth="468.0" minWidth="367.0" prefWidth="468.0" />
+      <ColumnConstraints maxWidth="101.0" minWidth="0.0" prefWidth="0.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="398.0" prefWidth="437.0" GridPane.rowIndex="1">
+         <children>
+            <Label layoutX="81.0" layoutY="46.0" prefWidth="73.0" text="First Number" />
+            <Label layoutX="81.0" layoutY="87.0" text="Second Number" />
+            <Label fx:id="ErrorField" layoutX="167.0" layoutY="239.0" prefHeight="32.0" prefWidth="149.0" />
+            <Button layoutX="204.0" layoutY="167.0" mnemonicParsing="false" onAction="#click" prefHeight="25.0" prefWidth="108.0" text="Calculate" />
+            <Button layoutX="204.0" layoutY="205.0" mnemonicParsing="false" onAction="#clickTwo" prefHeight="25.0" prefWidth="108.0" text="Clear Fields" />
+            <TextField fx:id="FirstNumber" layoutX="184.0" layoutY="42.0" />
+            <TextField fx:id="SecondNumber" layoutX="183.0" layoutY="83.0" />
+            <TextField fx:id="Sum" layoutX="184.0" layoutY="125.0" />
+            <Label layoutX="81.0" layoutY="129.0" text="Sum" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
