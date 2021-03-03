@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FxmlForLab17">
+   <children>
+      <Button layoutX="160.0" layoutY="45.0" mnemonicParsing="false" onAction="#plus" text="+1" />
+      <Button layoutX="160.0" layoutY="85.0" mnemonicParsing="false" onAction="#minus" text="-1" />
+      <Label layoutX="27.0" layoutY="50.0" text="Number" />
+      <TextField editable="false" fx:id="text" layoutX="83.0" layoutY="46.0" prefHeight="25.0" prefWidth="64.0" text="0" />
+   </children>
+</AnchorPane>
