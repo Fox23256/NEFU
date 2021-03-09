@@ -9,7 +9,7 @@ public class Controller {
     @FXML
     TextField Field;
     public void UploadMessage(ActionEvent actionEvent) {
-        if (!Field.getText().equals(" ")){
+        if (!Field.getText().equals("")){
             if (Area.getText().equals("")){
              Area.setText(Field.getText());
             }else Area.setText(Area.getText()+"\n"+Field.getText());
